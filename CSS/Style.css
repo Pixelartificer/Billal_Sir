@@ -72,14 +72,12 @@
     -o-transition: .75s;
 }
 
-
-
 nav ul li a:hover::after{
   width: 100%;
  }
 
  .heroSection{
-  padding: 10%;
+  padding: 32px 10% ;
   color: #080808;
   display: flex;
   justify-content: space-between;
@@ -87,12 +85,18 @@ nav ul li a:hover::after{
 
  .heroText p{
   font-size: 32px;
+  margin-top: 60px;
  }
 
  .heroText h1{
   font-size: 60px;
+  margin-top: 16px;
  }
 
  .heroText h1 span{
   color: #ff004f;
+ }
+
+ .heroImage img{
+  width: 400px
  }
